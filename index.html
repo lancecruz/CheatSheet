@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Web Development Cheat Sheet</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Web Dev Cheat Sheet Sheet Sheeeeet <span class="thinking-text">(Updated over time)</span></h1>
+        </header>
+        <nav>
+            <a href="test.html">To test page...</a>
+        </nav>
+
+        <header>
+            <img id="logo" src="./resources/images/logo.png">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./StyleGuide/styleGuide.html">Style Guide</a></li>
+                    <li><a href="./test.html">Test Page</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container">
+            <h1>HTML Table Reference</h1>
+            <h2>Table Tags</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-header-small">Tag</th>
+                        <th class="table-header-medium">Name</th>
+                        <th class="table-header-long">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="element-tag">&lt;table&gt;</span></td>
+                        <td>Table</td>
+                        <td class="table-description-col">Defines a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;thead&gt;</span></td>
+                        <td>Table Header</td>
+                        <td class="table-description-col">Groups the header content in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;tbody&gt;</span></td>
+                        <td>Table Body</td>
+                        <td class="table-description-col">Groups the body content in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;tfoot&gt;</span></td>
+                        <td>Table Footer</td>
+                        <td class="table-description-col">Groups the footer content in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;tr&gt;</span></td>
+                        <td>Table Row</td>
+                        <td class="table-description-col">Defines a row in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;th&gt;</span></td>
+                        <td>Table Heading</td>
+                        <td class="table-description-col">Defines a header cell in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;td&gt;</span></td>
+                        <td>Table Data</td>
+                        <td class="table-description-col">Defines a cell in a table</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&lt;caption&gt;</span></td>
+                        <td>Table Caption</td>
+                        <td class="table-description-col">Defines a table caption</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Table Attributes</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-header-small">Attribute</th>
+                        <th class="table-header-medium">Name</th>
+                        <th class="table-header-long">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="element-tag">colspan</span></td>
+                        <td>Column Span</td>
+                        <td class="table-description-col">Defines how many columns a &lt;td&gt; element should span.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">rowspan</span></td>
+                        <td>Row Span</td>
+                        <td class="table-description-col">Defines how many rows a &lt;td&gt; element should span.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>CSS Selectors</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="table-header-small">Format</th>
+                        <th class="table-header-medium">Name</th>
+                        <th class="table-header-long">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><span class="element-tag">element</span></td>
+                        <td>Type Selector</td>
+                        <td class="table-description-col">Matches every instance of the element.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">#id</span></td>
+                        <td>ID Selector</td>
+                        <td class="table-description-col">Styles the element with the specified id.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&period;class-name</span></td>
+                        <td>Class Selector</td>
+                        <td class="table-description-col">Selects HTML elements with a specific class attribute.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">&ast;</span></td>
+                        <td>Universal Selector</td>
+                        <td class="table-description-col">Selects all HTML elements on the page.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">h1, h2, p</span></td>
+                        <td>Grouping Selector</td>
+                        <td class="table-description-col">Selects all the HTML elements with the same style definitions.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">element&period;class-name</span></td>
+                        <td>element.class Selector</td>
+                        <td class="table-description-col">Select and style every element with the specified class.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">element element</span></td>
+                        <td>Descendant Selector</td>
+                        <td class="table-description-col">Made up of two or more selectors separated by white space.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">element &gt; element</span></td>
+                        <td>Child Selector</td>
+                        <td class="table-description-col">Select and style every element when an element is the child of some element.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">element1 + element2</span></td>
+                        <td>Adjacent Siblings Selector</td>
+                        <td class="table-description-col">The selector matches if element1 and element2 share the same parent in the document tree and element1 immediately precedes element2.</td>
+                    </tr>
+                    <tr>
+                        <td><span class="element-tag">element[attribute], element[attribute=val]</span></td>
+                        <td>Attribute Selector</td>
+                        <td class="table-description-col">Matches elements which have certain attributes.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

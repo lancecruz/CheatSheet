@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgreen;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* a {
+    background-color: #D7263D;
+    color: #ffffff;
+    display: block;
+    font-family: 'Pontano Sans',sans-serif;
+    font-size: 16px;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ul {
+    padding: 0px;
+    margin: 10px 0px;
+}
+
+li {
+    margin:0px;
+    list-style: none;
+}
+
+.breadcrumb a {
+    background-color: inherit;
+}
+
+.container {
+    height: 500px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+.breadcrumb {
+    text-align: left;
+}
+
+.breadcrumb li {
+    float: left;
+}
+
+.breadcrumb a {
+    color: #fff;
+    background: darkcyan;
+    text-decoration: none;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-right: 15px;
+    padding: 0 5px;
+}
+
+.breadcrumb a::before,
+.breadcrumb a::after {
+  content: "";
+  position: absolute;
+  border-color: blue;
+  border-style: solid;
+  border-width: 15px 5px;
+}
+
+.breadcrumb a::before {
+    left: -10px;
+    border-left-color: transparent;
+}
+.breadcrumb a::after {
+    left: 100%;
+}
+  
+.breadcrumb a::after {
+    left: 100%;
+    border-color: transparent;
+    border-left-color: blue;
+} */
+
+h1 {
+    margin: 0;
+    background-color: steelblue;
+    line-height: 100px;
+    color: khaki;
+}
+
+body {
+    margin: 0px;
+    background-color: whitesmoke;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+}
+
+.tagline {
+    font-family: 'Quicksand', sans-serif;
+    color: lightslategrey;
+    line-height: 20px;
+    background-color: rgb(172, 119, 119);
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.left {
+    background-color: red;
+    float: left;
+    width: 200px;
+}
